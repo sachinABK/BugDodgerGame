@@ -65,7 +65,7 @@ function create() {
   this.physics.add.collider(gameState.player, bugs, () => {
     bugGenLoop.destroy();
     this.physics.pause();
-    this.add.text(180, 250, "Game Over", { fontSize: "15px", fill: "#000000" });
+    this.add.text(180, 250, "Game Over", { fontSize: "25px", fill: "#000000" });
     this.add.text(152, 270, "Click to Restart", {
       fontSize: "15px",
       fill: "#000000",
