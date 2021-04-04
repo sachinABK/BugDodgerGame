@@ -71,7 +71,6 @@ function create() {
       fill: "#000000",
     });
 
-    // Add your code below:
     this.input.on("pointerup", () => {
       gameState.score = 0;
       this.scene.restart();
